@@ -1,0 +1,722 @@
+@media (max-width: 990px) {
+    video {
+        display: none;
+    }
+    canvas {
+        display: none;
+    }
+    .img-mobile {
+        /* visibility: unset; */
+        display: unset;
+    }
+    
+
+    .png-desktop {
+        display: none;
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+    #loader-wrapper .logo{
+        width: 220px;
+    }
+    header .navbar {
+        background-image: unset;
+        background-color: #1887F3;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    header .navbar .container {
+        width: 100%;
+        background-color: #1887F3;
+        padding: 0;
+        margin: 0;
+        padding-top: 0.315rem;
+    }
+
+    header .navbar-brand {
+        margin-left: 1rem;
+    }
+
+    header .navbar-brand img {
+        margin-top: unset;
+        margin-left: unset;
+        width: 113px;
+    }
+
+    header .nav-logo .flag-img {
+        display: none;
+    }
+
+    header .nav-logo .logo-img {
+        top: 0;
+        left: 0;
+    }
+
+    header .navbar-expand-lg .container ul li {
+        text-align: left;
+    }
+
+    header .navbar-expand-lg .container ul li a.nav-link {
+        color: #FFF;
+    }
+
+    header .nav-item.nav-item-img {
+        background-image: unset;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        margin-top: -15px;
+        margin-right: 1rem;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    header .collapse.navbar-collapse,
+    header .collapsing.navbar-collapse {
+        margin-top: -3px;
+        background-color: #1887F3;
+        margin-left: 0%;
+        padding: 1rem;
+        z-index: 1002;
+    }
+
+    header .navbar-nav {
+        height: 100vh;
+    }
+
+    header .header-playnow {
+        padding-bottom: calc(100vh - 450px);
+    }
+
+    header .navbar-expand-lg .container ul li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .top-banner .bg-clouds {
+        position: absolute;
+    }
+
+    .top-banner .bg-banner1 {
+        max-width: 369px;
+        height: 214px;
+    }
+
+    .top-banner-section1 .minion-king {
+        width: 46px;
+        height: 53px;
+        margin-left: unset;
+    }
+
+    .top-banner .top-banner-section1-wraper {
+        min-width: unset;
+        max-width: 500px;
+    }
+    .top-banner .bg-clouds {
+        width: 100%;
+    }
+
+    .top-banner .bg-clouds-top {
+        width: calc(100%/2);
+    }
+
+    .top-banner-section1-wraper .top-banner-section1 {
+        padding-top: 90px;
+    }
+
+    .top-banner-section1-wraper .top-banner-section1 .section1-child {
+        position: absolute;
+    }
+
+    .top-banner-section1-wraper .top-banner-section1 .logo-big {
+        width: 229px;
+        position: unset;
+    }
+    .top-banner-section1-wraper img.minioncle-fly {
+        width: 7em;
+        z-index: 1;
+        left: 0;
+        margin-top: 34px;
+    }
+
+    .top-banner-section1-wraper img.minioncle-angry {
+        width: 8em;
+        right: 30px;
+        z-index: 1;
+        top: 60px;
+    }
+
+    .top-banner .bg-banner1 {
+        background: url('../assets/dist/img/bg-king-battle-mobile.png');
+    }
+
+    .top-banner .bg-banner1 .bg-banner1-text-bt-note {
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        padding-top: 41px;
+        width: 270px;
+    }
+
+    .top-banner .bg-banner1 .learn-more {
+        padding-top: 10px;
+    }
+
+    .top-banner-section2-wraper {
+        margin-top: 210px;
+    }
+
+    .top-banner-section2-wraper .top-banner-section2 {
+
+    }
+
+    .top-banner .bg-clouds-bottom {
+        width: calc(100%/3);
+    }
+    .top-banner-section2-wraper .top-banner-section2 img.minion-king {
+        width: 89px;
+    }
+
+
+    .prize-banner .prize-master .flag-bg, .prize-banner .prize .flag-bg {
+        width: 224px;
+        height: 320px;
+    }
+
+    .prize-banner .prize-content, .prize-banner .prize-master .prize-content {
+        margin: 81px 0 0 47px;
+    }
+
+    .prize-banner .prize-master .prize-content .prize-header {
+        margin-bottom: unset;
+    }
+
+    .castle-hero {
+        display: block !important;
+    }
+
+    .castle-hero.hero-left, .castle-hero.hero-right {
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px) scale(0.5,0.5)!important;
+        bottom: -100px;
+    }
+
+    .castle-hero.hero-left {
+        left: -10%;
+    }
+
+    .hero-right-wraper .hero-bg-fire-right {
+        /* display: none; */
+    }
+
+    .step5-wraper .step5-header-wraper .step5-header {
+        padding: unset;
+    }
+    
+    .step5-wraper .step5-header-wraper .step5-header .text-header {
+        font-size: 26px;
+    }
+
+    .step5-header-arrow, .step5-header-arrow-right {
+        width: 100px;
+    }
+
+    .step5-wraper .step5-conntent img.step5-animation-coin {
+        margin-left: -35px;
+    }
+
+    .kingdom-wraper-section3, .kingdom-wraper .kingdom-wraper-section1{
+        display: none;
+    }
+
+    .step7-wraper .step7-wraper-partner-wraper {
+        /* display: none; */
+    }
+
+    .step5-wraper .step5-conntent .step5-animation-coin {
+        width: 100px;
+        margin-top: 100px;
+        height: 110px;
+    }
+
+    .step5-wraper .step5-conntent .step5-yellow-coin {
+        margin-left: 150px;
+    }
+
+    .step5-wraper .step5-conntent .step5-minion, .step5-wraper .step5-conntent .step5-witch {
+        display: none;
+    }
+    .step7-wraper .step7-wraper-partner-wraper {
+        bottom: 30px;
+        width: 329px;
+    }
+    .step7-wraper .step7-wraper-partner-wraper .forist {
+        width: 83px;
+        height: 118px;
+        margin-top: 47px;
+        left: -20px;
+    }
+
+    .step7-wraper-partner-wraper img.wraper-partners-bg {
+        width: 329px;
+    }
+
+    /* height  background */
+    .top-banner {
+        /* display: none; */
+        min-height: 400px;
+        position: relative;
+    }
+    .prize-banner {
+        min-height: 1000px;
+    }
+
+    .kingdom-gate-wraper {
+        height: 736px;
+    }
+
+    .kingdom-gate-wraper .castle-img {
+        /* max-height: 392px; */
+    }
+
+    .kingdom-wraper {
+        max-height: 390px;
+    }
+
+    .step5-wraper {
+        max-height: 529px;
+    }
+
+    .step7-wraper {
+        max-height: 2200px;
+        margin-top: -2px;
+    }
+
+    .king-battle-flag {
+        width: 100%;
+        margin: 0;
+    }
+
+    .king-battle-flag .flag-text {
+        font-size: 7.67348px;
+        line-height: 9px;
+    }
+
+    .hero-left-wraper .hero-bg-fire-left {
+        right: -50%;
+        top: -16%;
+    }
+
+    .bg-king-battle .text-king-battle {
+        /* font-size: 35px; */
+    }
+
+    .step7-top {
+        height: 700px;
+    }
+    .step7-king-battle .flag-text .text-small {
+        max-width: 140px;
+    }
+
+    .step8-wraper .wraper-advisor-wraper, .wraper-advisor-wraper .advisor-content {
+        max-width: 550px;
+    }
+
+    .step8-wraper .wraper-advisor-wraper .wraper-advisors-bg {
+        max-width: 550px;
+    }
+  
+    .step7-king-battle .flag-text .text-small {
+        font-size: 10px;
+    }
+
+    .step7-king-battle .flag-text b {
+        font-size: 16px;
+    }
+    .youtube-wraper {
+        bottom: 200px;
+        max-width: 375px;
+        height: 217px;
+    }
+    
+
+    .youtube-wraper iframe {
+        margin-top: 19px;
+        margin-left: 10px;
+    }
+
+    .step7-wraper .roadmap-wraper .header span {
+
+    }
+
+    .step8-wraper .wraper-advisor-wraper .forist {
+        width: 83px;
+        height: 118px;
+        margin-top: 154px;
+        margin-left: -15px;
+    }
+
+    .wraper-advisor-wraper .advisor-header span {
+        font-size: 24px;
+    }
+
+
+    .wraper-advisor-wraper .advisor-header {
+        margin-top: 85px;
+    }
+
+    .wraper-advisor-wraper .advisors .advisor-item img {
+        width: 96px;
+    }
+    .wraper-advisor-wraper .advisors {
+        margin-left: 10px;
+    }
+
+    footer {
+        height: unset;
+    }
+    
+    .kingdom-wraper .paper-link a{
+        position: absolute;
+        bottom: 21px;
+        left: 41px;
+        width: 100px;
+    }
+
+    .kingdom-wraper .kingdom-wraper-section2 {
+        top: 130px;
+        left: 65%;
+    }
+
+    .kingdom-wraper .paper-link {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+
+
+@media (max-width: 768px) {
+    .step5-wraper .step5-conntent img.step5-animation-coin {
+        margin-left: 0px;
+    }
+    footer {
+        height: unset;
+    }
+
+    .footer-bs .footer-nav ul.list li {
+        text-align: center;
+    }
+
+    .footer-bs .footer-nav ul.icons-ft li {
+        text-align: left;
+        padding-left: calc(50vw - 70px);
+    }
+
+    .footer-bs .footer-nav ul.contact li {
+        padding-left: calc(50vw - 125px);
+    }
+
+    .footer-bs .footer-ns {
+        width: unset;
+    }
+    footer {
+        background-image: unset;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        background: url('../assets/dist/img/backgrounds/footerBgResponsive.jpg');
+        /*height: 1165px;*/
+        height: unset;
+    }
+    footer .footer-bs .footer-wraper .footer-brand{
+        padding-top: 44px;
+        width: 100%;
+    }
+    .footer-bs .footer-nav {
+        padding-top: 44px;
+    }
+    footer .footer-bs .footer-nav ul.list li{
+        text-align: center;
+    } /*not yet*/
+    .footer-bs .footer-ns{
+        padding-top: 58px;
+    }
+    footer .paper {
+        position: relative;
+        bottom: 18px;
+        padding-top: -100px;
+        margin: 0 auto;
+    }
+    footer .copyright{
+        margin-top: unset;
+        padding-bottom: 18px;
+    }
+    footer .copyright span {
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 600) {
+    .step7-king-battle .flag-text .text-small {
+        max-width: 140px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .kingdom-wraper .paper-link {
+        position: absolute;
+        bottom: 4px;
+        left: 0px;
+    }
+    .kingdom-wraper .kingdom-wraper-section2 {
+        top: 130px;
+        left: 48%;
+    }
+    .wraper-advisor-wraper .advisors {
+        margin-top: 10px;
+    }
+    .wraper-advisor-wraper .advisor-content .advisor-bottom {
+        margin-top: -114px;
+    }
+    #loader-wrapper .loading {
+        margin: 20px auto auto 30%;
+    }
+    .castle-hero.hero-left, .castle-hero.hero-right {
+        right: -13%;
+        bottom: -110px;
+    }
+
+    .step5-wraper .step5-header-wraper .step5-header .text-header {
+        font-size: 18px;
+    }
+    .step5-header-arrow, .step5-header-arrow-right {
+        width: 60px;
+    }
+    .bg-king-battle {
+        width: 255.48px;
+        height: 148px;
+        margin: 0 auto;
+    }
+
+    .bg-king-battle .text-king-battle {
+        font-size: 16px;
+        padding-top: 35px;
+        /* margin-left: -68px; */
+    }
+
+    .bg-king-battle .text-bt-note {
+        max-width: 146px;
+        font-size: 10px;
+    }
+
+
+    .bg-king-battle .learn-more {
+        padding-top: 6px;
+    }
+    .bg-king-battle .learn-more a {
+        font-size: 6px;
+    }
+
+    .step7-king-battle .flag {
+        max-width: 147px;
+    }
+
+    .step7-wraper .step7-wraper-partner-wraper {
+        bottom: 130px;
+    }
+
+    .step7-wraper .king-battle-flag div.col-sm {
+        margin-bottom: 10px;
+    }
+
+    .step7-king-battle .flag-text .text-small {
+        max-width: 100px;
+    }
+
+    .step5-wraper .step5-conntent .step5-yellow-coin {
+        width: 200px;
+        margin-left:110px;
+    }
+
+    .step5-wraper .step5-conntent .step5-conntent-center {
+        width: 100%;
+    }
+
+
+    .hero-left-wraper .hero-bg-fire-left {
+        right: -10%;
+    }
+
+    .hero-left-wraper .heros-left {
+        left: -29%;
+        position: absolute;
+    }
+
+    .step6-wraper {
+        margin-top: -21%;
+    }
+
+
+    .step7-king-battle {
+        max-width: 401;
+    }
+    .step5-wraper .step5-conntent img.step5-animation-coin {
+        /* margin-left: 45px; */
+    }
+
+    
+    .step7-wraper .roadmap-wraper .roadmap-item {
+        /* max-width: 200px; */
+    }
+    .step7-wraper .roadmap-wraper .roadmap-item span.title {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .step7-wraper .roadmap-wraper .roadmap-item span.title {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .step7-wraper .roadmap-wraper .roadmap-item span.content, .roadmap-wraper .roadmap-item span.content-break {
+        font-size: 10px;
+        line-height: 23px;
+    }
+
+    .step7-wraper .roadmap-wraper .roadmap-item-content {
+        width: 220px;
+    }
+    .step7-wraper .roadmap-wraper .roadmap-item-content.right {
+        margin-right: -12%;
+    }
+    .step7-wraper .roadmap-wraper .roadmap-item-content.left {
+        margin-left: -6%;
+    }
+
+
+    .step8-wraper .wraper-advisor-wraper, .wraper-advisor-wraper .advisor-content {
+        max-width: 375px;
+    }
+
+    .step8-wraper .wraper-advisor-wraper .wraper-advisors-bg {
+        max-width: 375px;
+        margin-top: 141px;
+    }
+
+    .partner-wraper .partners  {
+        text-align: center;
+    }
+
+    .partner-wraper .partners .partner-item {
+        padding-bottom: 20px;
+    }
+
+    .partner-wraper .partner-header {
+        margin-bottom: 28px;
+    }
+    .youtube-wraper { 
+        bottom: 350px;
+    }
+    .step8-wraper {
+        margin-top: -270px;
+    }
+
+    .step8-wraper .wraper-advisor-wraper .forist {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+
+    .wraper-advisor-wraper .advisor-header {
+        margin-top: 191px;
+    }
+
+    .wraper-advisor-wraper .advisors .advisor-item {
+        width: 104px;
+    }
+
+    .bg-king-battle .text-bt-note {
+        padding-top: 17px;
+    }
+
+    .top-banner-section1-wraper img.minioncle-angry {
+        right: 0;
+        top: 85px;
+    }
+    .top-banner-section1 .minion-king {
+        margin-left: -21px;
+    }
+    .top-banner-section1-wraper img.minioncle-fly {
+        margin-top: 61px;
+    }
+
+    .step7-wraper .roadmap-wraper .roadmap-item-content {
+        width: 190px;
+    }
+    .step7-wraper .roadmap-wraper .roadmap-item .left span.content::after, .step7-wraper .roadmap-wraper .roadmap-item .right span.content::before {
+       
+        width: 16px;
+        height: 16px;
+    
+    }
+}
+
+@media (max-width: 375px) {
+    .step5-header-arrow, .step5-header-arrow-right {
+        width: 30px;
+    }
+    
+    .step5-wraper .step5-header-wraper .step5-header .text-header {
+        font-size: 16px;
+    }
+
+    .step5-wraper .step5-conntent .step5-yellow-coin {
+        margin-left: 90px;
+    }
+
+    .bg-king-battle .text-king-battle {
+        /* margin-left: -40px; */
+    }
+
+    .hero-left-wraper .hero-bg-fire-left {
+        right: -10%;
+    }
+
+    .hero-left-wraper .heros-left {
+        left: -29%;
+        position: absolute;
+    }
+
+    .step7-king-battle .flag-text {
+        top: 33px;
+        left: -4px;
+    }
+    .step7-wraper .roadmap-wraper .roadmap-item-content.right {
+        margin-right: -19%;
+    }
+
+    .step7-wraper .roadmap-wraper .roadmap-item-content.left {
+        margin-left: -7%;
+    }
+}
+
+@media (max-width: 320px) {
+    .step5-wraper .step5-conntent .step5-yellow-coin {
+        margin-left: 60px;
+    }
+    .step5-wraper .step5-conntent img.step5-animation-coin {
+        margin-left: 45px;
+    }
+}

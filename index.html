@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ngo Trung Nghia, ngotrungnghia1@gmail.com">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/preload.css" rel="stylesheet">
+    <link href="styles/mobile.css" rel="stylesheet">
+    <link href="styles/responisive.css" rel="stylesheet">
+
+    <script type="application/javascript">
+    </script>
+</head>
+
+<body>
+    <div id="overlayer">
+        <div id="loader-wrapper">
+            <img class="logo" src="assets/dist/img/logo-static-big.png" alt="">
+            <div class="loading">
+                <span>Loading</span>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="nav-logo">
+                        <img class="flag-img" src="assets/dist/img/header/bg-playnow.png" alt="">
+                        <img class="logo-img" src="assets/dist/img/logo.png" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="menu" class="navbar-nav ms-auto mb-2 mb-lg-0 ml-auto">
+                        <li class="nav-item nav-item-img active">
+                            <a class="nav-link" data-section="home" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item nav-item-img">
+                            <a class="nav-link" data-section="kingdom-gate" href="#">Battle</a>
+                        </li>
+                        <li class="nav-item nav-item-img">
+                            <a class="nav-link" data-section="white-paper" href="#">White Paper</a>
+                        </li>
+                        <li class="nav-item nav-item-img">
+                            <a class="nav-link" data-section="marketplace" href="#">Marketplace</a>
+                        </li>
+                        <li class="nav-item nav-item-img">
+                            <a class="nav-link" data-section="roadmap" href="#">Roadmap</a>
+                        </li>
+                        <li class="nav-item nav-item-img">
+                            <a class="nav-link" data-section="team" href="#">Team</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link p-0" href="#">
+                                <img class="img-playnow" src="assets/dist/img/playnow.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="page">
+        <div id="home"class="top-banner">
+            <div class="top-banner-section0-wraper">
+                <div class="top-banner-section0">
+                    <img class="bg-clouds bg-clouds-top float-left" src="assets/dist/img/step1/clouds-top-left.png" alt="">
+                    <img class="bg-clouds bg-clouds-top float-right png-mobile" src="assets/dist/img/step1/clouds-top-right.png" alt="">
+                    <img class="bg-clouds bg-clouds-top float-right png-desktop" src="assets/dist/img/step1/clouds-top-right2.png" alt="">
+                </div>
+            </div>
+            <div class="top-banner-section1-wraper">
+                <div class="top-banner-section1">
+                    <img class="bg-clouds section1-child float-left minioncle-fly img-mobile"
+                        src="assets/dist/img/step1/cloud-minion-cle.png" alt="">
+                    <img class="img-mobile logo-big section1-child img-replace-video" src="assets/dist/img/mobile/logo.png" alt="">
+                    <canvas id="cv_animation_logo_big" class="logo-big section1-child"></canvas>
+                   
+                    <img class="bg-clouds section1-child float-right minioncle-angry img-mobile"
+                        src="assets/dist/img/step1/cloud-minion-angry3.png" alt="">
+                    <img class="minion-king"
+                        src="assets/dist/img/step1/hero-king.png" alt="">
+                </div>
+            </div>
+
+            <div class="top-banner-section2-wraper">
+                <video id="animation_logo_big" class="logo-big section1-child" autoplay loop muted playsinline>
+                    <source src="assets/dist/img/video/Logo.webm" type="video/webm">
+                </video>
+                <div class="top-banner-section2">
+                    <img class="bg-clouds float-left minioncle-fly png-desktop"
+                    src="assets/dist/img/step1/cloud-minion-cle3.png" alt="">
+                    <img class="bg-clouds float-right minioncle-angry png-desktop"
+                        src="assets/dist/img/step1/cloud-minion-angry3.png" alt="">
+                    <div class="bg-banner1">
+                        <div class="bg-banner1-text-bt-note">
+                            Takes place in a fictional world, “Dood Kingdom,” a land of mystery and adventure. The beautiful and peaceful kingdom is threatened by dangerous enemies who lust for power. Leading a troop of mighty heroes and fight against traitors to regain the lost lands and earn valuable rewards
+                        </div>
+                        <div class="text-center learn-more">
+                            <a href="">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="kingdom-gate" class="kingdom-gate-wraper background-wraper">
+            <div class="castle-img-wraper">
+                <div id="castle-img" data-scroll-speed="4" class="castle-img w-100">
+                    <div class="castle-hero hero-left d-none">
+                        <div class="hero-left-wraper">
+                            <img class="hero-bg-fire-left" src="assets/dist/img/fire-left.png" alt="">
+                            <img class="img-mobile heros-left img-replace-video" src="assets/dist/img/mobile/heros-left.png" alt="">
+
+                            <canvas id="cv_hero_piggy" class="hero-piggy"></canvas>
+                            <video id="hero_piggy" class="hero-piggy" autoplay loop muted playsinline>
+                                <source src="assets/dist/img/video/Piggy.webm" type="video/webm">
+                            </video>
+
+                            <canvas id="cv_hero-florist" class="hero-florist"></canvas>
+                            <video id="hero-florist" class="hero-florist" autoplay loop muted playsinline>
+                                <source src="assets/dist/img/video/Florist.webm" type="video/webm">
+                            </video>
+
+                            <canvas id="cv_hero-knight" class="hero-knight"></canvas>
+                            <video id="hero-knight" class="hero-knight" autoplay loop muted playsinline>
+                                <source src="assets/dist/img/video/Knight.webm" type="video/webm">
+                            </video>
+
+                            <canvas id="cv_hero-king-doodle-left" class="hero-king-doodle-left"></canvas>
+                            <video id="hero-king-doodle-left" class="hero-king-doodle-left" autoplay loop muted
+                                playsinline>
+                                <source src="assets/dist/img/video/King_Doodle_Left.webm" type="video/webm">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="castle-hero hero-right d-none">
+                        <div class="hero-right-wraper">
+                            <img class="hero-bg-fire-right" src="assets/dist/img/fire-right.png" alt="">
+                            <img class="img-mobile heros-right img-replace-video" src="assets/dist/img/mobile/heros-right.png" alt="">
+
+                            <canvas id="cv_hero-ninja" class="hero-ninja"></canvas>
+                            <video id="hero-ninja" class="hero-ninja" autoplay loop muted playsinline>
+                                <source src="assets/dist/img/video/Ninja.webm" type="video/webm">
+                            </video>
+
+                            <canvas id="cv_hero-pirate" class="hero-pirate"></canvas>
+                            <video id="hero-pirate" class="hero-pirate" autoplay loop muted playsinline>
+                                <source src="assets/dist/img/video/Pirate.webm" type="video/webm">
+                            </video>
+
+                            <canvas id="cv_hero-bear" class="hero-bear"></canvas>
+                            <video id="hero-bear" class="hero-bear" autoplay loop muted playsinline>
+                                <source src="assets/dist/img/video/Bear.webm" type="video/webm">
+                            </video>
+
+                            <canvas id="cv_hero-king-doodle-right" class="hero-king-doodle-right"></canvas>
+                            <video id="hero-king-doodle-right" class="hero-king-doodle-right" autoplay loop muted
+                                playsinline>
+                                <source src="assets/dist/img/video/King_Doodle_Right.webm" type="video/webm">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="white-paper" class="kingdom-wraper background-wraper">
+            <div class="kingdom-wraper-section1">
+                <img src="assets/dist/img/Char_Minion_KIng_1_0.png" class="img-replace-video kingdom-king"></img>
+                <video id="kingdom-king" class="kingdom-king" autoplay loop muted playsinline>
+                    <source src="assets/dist/img/king.webm" type="video/webm">
+                </video>
+                <canvas id="cv_kingdom-king" class="kingdom-king"></canvas>
+            </div>
+            <div class="kingdom-wraper-section2">
+                <div>
+                    <img class="img-mobile kingdom-paper img-replace-video" src="assets/dist/img/Paper.png" alt="">
+                    <video id="kingdom-paper" class="kingdom-paper" autoplay loop muted playsinline>
+                        <source src="assets/dist/img/Paper.webm" type="video/webm">
+                    </video>
+                    <canvas id="cv_kingdom-paper" class="kingdom-paper"></canvas>
+                    <div class="paper-link">
+                        <span><a href="#">Learn more</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="kingdom-wraper-section3">
+                <video id="kingdom-PiggyStrikeFire" class="kingdom-PiggyStrikeFire" autoplay loop muted playsinline>
+                    <source src="assets/dist/img/video/PiggyStrikeFire.webm" type="video/webm">
+                </video>
+                <canvas id="cv_kingdom-PiggyStrikeFire" class="kingdom-PiggyStrikeFire"></canvas>
+            </div>
+        </div>
+        <div class="top-footer background-wraper"></div>
+        <div id="marketplace" class="step5-wraper background-wraper">
+            <div style="position: absolute; visibility: none">
+                <video id="step5-minion" autoplay loop muted playsinline>
+                    <source src="assets/dist/img/minion_Craf.webm" type="video/webm">
+                </video>
+                <video id="animation-coin" autoplay loop muted playsinline>
+                    <source src="assets/dist/img/animation_coin.webm" type=" video/webm">
+                </video>
+                <!-- <video id="witch" autoplay loop muted playsinline>
+                    <source src="assets/dist/img/Char_Minion_Summoning_1.webm" type="video/webm">
+                </video> -->
+            </div>
+            
+            <div class="step5-header-wraper">
+                <div class="row justify-content-md-center align-items-center step5-header">
+                    <div class="col text-right">
+                        <img src="assets/dist/img/Vector.png" class="step5-header-arrow"></img>
+                    </div>
+                    <div class="co-auto text-header">
+                        PLAY NOW
+                    </div>
+                    <div class="col text-left">
+                        <img src="assets/dist/img/Vector.png" class="step5-header-arrow-right"></img>
+                    </div>
+                </div>
+            </div>
+            <div class="step5-conntent">
+                <img src="assets/dist/img/minion_Craf.png" class="img-replace-video step5-minion"></img>
+                <canvas id="cv_step5-minion" class="step5-minion"></canvas>
+                <div class="step5-conntent-center">
+                    <div class="step5-yellow-coin">
+                        <img class="img-mobile step5-animation-coin img-replace-video" src="assets/dist/img/mobile/coin.png" alt="">
+                        <canvas id="cv_animation-coin" class="step5-animation-coin"></canvas>
+
+                    </div>
+                </div>
+                <!-- <canvas id="cv_witch" class="step5-witch"></canvas> -->
+
+            </div>
+        </div>
+        <div class="step6-wraper background-wraper">
+            <img class="step6-cloud" src="assets/dist/img/backgrounds/step6.png" alt="">
+        </div>
+
+        <div id="roadmap" class="step7-top">
+            <div class="step7-king-battle">
+                <div class="d-flex justify-content-center">
+                    <div class="bg-king-battle">
+                        <div class="text-king-battle text-center">
+                            Land and Buildings
+                        </div>
+                        <div class="text-bt-note">
+                            Own a piece of land, extract rare resources and build a strong defense power against looters.
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="row king-battle-flag">
+                        <div class="col-6 col-md">
+                            <img class="flag w-100" src="assets/dist/img/png/violet-flag.png" alt="">
+                            <div class="flag-text">
+                                <b>Game Heroes</b>
+                                <div class="text-small mt-2">
+                                    Assemble a squad of heroes
+                                    and become legendary by
+                                    battling and training your
+                                    heroes.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <img class="flag w-100" src="assets/dist/img/png/violet-flag.png" alt="">
+                            <div class="flag-text">
+                                <b>Clan</b>
+                                <div class="text-small mt-2">
+                                    Build your own clan, make friends and interact with other gamers
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <img class="flag w-100" src="assets/dist/img/png/violet-flag.png" alt="">
+                            <div class="flag-text">
+                                <b>Game Virtual<br>Economy</b>
+                                <div class="text-small mt-2">
+                                    Play to earn through in-game activities, collect and trade NFTs on a marketplace
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <img class="flag w-100" src="assets/dist/img/png/violet-flag.png" alt="">
+                            <div class="flag-text">
+                                <b>Game Activities</b>
+                                <div class="text-small mt-2">
+                                    Enjoy the game through a variety of activities: PvP battle, dungeons, challenges, daily quest, tournaments, campaigns..
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step7-wraper background-wraper">
+           <div class="roadmap-wraper">
+               <div class="header">
+                   <!-- <img src="assets/dist/img/png/red-flag.png" alt=""> -->
+                   <span>Roadmap</span>
+               </div>
+               <img class="roadmap-divider" src="assets/dist/img/roadmap.png" alt="">
+               <div class="roadmaps row col-md-12">
+                    <div class="roadmap-item col-md-12">
+                        <div class="roadmap-item-content left col-md-6">
+                            <span class="title">Q2,2021</span>
+                            <span class="content">Start of the migration of the game to blockchain</span>
+                            <span class="content">Launch MVP version.</span>
+                            <span class="content">conduct token sales</span>
+                        </div>
+                    </div>
+                    <div class="roadmap-item col-md-12">
+                        <div class="roadmap-item-content right col-md-5">
+                            <span class="title">Q4,2021</span>
+                            <span class="content">IDO and exchange listings</span>
+                            <span class="content">Launch a closed alpha version.</span>
+                        </div>
+                    </div>
+                    <div class="roadmap-item col-md-12">
+                        <div class="roadmap-item-content left col-md-6">
+                            <span class="title">Q1,2022</span>
+                            <span class="content">Launch an open alpha version</span>
+                        </div>
+                    </div>
+                    <div class="roadmap-item q2-2022 col-md-12">
+                        <div class="roadmap-item-content right col-md-5">
+                            <span class="title">Q2,2022</span>
+                            <span class="content">Release Kingdom Raids on  iOS and Android</span>
+                            <span class="content">Launch of Land Gameplay Alpha</span>
+                        </div>
+                    </div>
+
+                    <div class="roadmap-item col-md-12">
+                        <div class="roadmap-item-content left col-md-6">
+                            <span class="title">Q3-Q4,2022</span>
+                            <span class="content">Release the game  on PC and browser.</span>
+                            <span class="content">Integrate advanced Hero features</span>
+                            <span class="content-break">such as Awakening and Fusion.</span>
+                        </div>
+                    </div>
+               </div>
+                <div class="youtube-wraper background-wraper">
+                    <iframe id="frame-youtube" width="720px" height="368px" src="https://www.youtube.com/embed/wk2ZVp3_WmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="step8-wraper background-wraper">
+            <div class="partner-wraper">
+                <div class="partner-wraper-w">
+                    <div class="partner-header">
+                        <span >PARTNERS</span>
+                    </div>
+                    <div class="row partners col-12">
+                        <div class="partner-item col-md-4">
+                            <img src="assets/dist/img/ubisoft.png" alt="">
+                        </div>
+                        <div class="partner-item col-md-4">
+                            <img src="assets/dist/img/binance.png" alt="">
+                        </div>
+                        <div class="partner-item col-md-4">
+                            <img src="assets/dist/img/samsung.png" alt="">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="wraper-advisor-wraper">
+                <div class="wraper-advisors">
+                    <img class="img-mobile forist img-replace-video" src="assets/dist/img/mobile/florist.png" alt="">
+                    <canvas id="cv_forist" class="forist"></canvas>
+                    <video id="forist" class="forist" autoplay loop muted playsinline>
+                        <source src="assets/dist/img/video/Florist.webm" type="video/webm">
+                    </video>
+                    <img class="wraper-advisors-bg" src="assets/dist/img/advisors.png" alt="">
+                    <div class="advisor-content">
+                        <div class="advisor-header">
+                            <span >Advisors</span>
+                        </div>
+                        <div class="advisors row col-12">
+                            <div class="advisor-item col-md-4">
+                                <img src="assets/dist/img/binance-white.png" alt="">
+                            </div>
+                            <div class="advisor-item col-md-4">
+                                <img src="assets/dist/img/binance-white.png" alt="">
+                            </div>
+                            <div class="advisor-item col-md-4">
+                                <img src="assets/dist/img/binance-white.png" alt="">
+                            </div>
+                        </div>
+                        <div class="advisor-bottom">
+                            <a href="#">View all</a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <img class="step-bg" src="assets/dist/img/step8-bottom.png" alt="">
+        </div>
+        <div class="top-footer background-wraper"></div>
+        <div id="team" class="background-wraper our-team">
+            <div class="our-team-header text-center">
+                <span>Our Team</span>
+            </div>
+            <div class="row top">
+                <div class="col-xl-4 offset-xl-4">
+                    <div class="row">
+                        <div class="col-4 px-0">
+                            <div class="team-item">
+                                <div class="avatar">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <span class="name">Ryan Lum</span>
+                                <span class="title">CMO</span>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0">
+                            <div class="team-item">
+                                <div class="avatar organe">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <span class="name">Ryan Lum</span>
+                                <span class="title">CMO</span>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0">
+                            <div class="team-item">
+                                <div class="avatar">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <span class="name">Ryan Lum</span>
+                                <span class="title">CMO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row second pb-md-5">
+                <div class="col col-sm-6 offset-sm-3 col-xl-4 offset-xl-5">
+                    <div class="row">
+                        <div class="col-6 px-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row third">
+                <div class="col col-xl-10 offset-xl-2 px-0 pl-sm-4">
+                    <div class="row">
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-4 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-4 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xl-2 col-6 pr-0">
+                            <div class="team-item">
+                                <div class="avatar ">
+                                    <img class="" src="assets/dist/img/team/cmo.png" alt="">
+                                </div>
+                                <div class="team-item-content">
+                                    <span class="name">Ryan Lum</span>
+                                    <span class="title">Lead Blockchain</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="top-footer background-wraper"></div>
+    <footer class="footer-bs background-wraper">
+        <div class="row footer-wraper">
+            <div class="col-lg-3 footer-brand animated fadeInLeft">
+                <img src="assets/dist/img/logo.png" alt="" width="216px" height="108px" class="footer-logo">
+                <!-- <div class="copyright">
+                    <span>Copyright © 2021 Kingdom Raids. All Right Reserved.</span>
+                </div> -->
+            </div>
+            <div class="col-lg-5 footer-nav animated fadeInUp">
+                <div class="row">
+                <div class="col-lg-4">
+                    <ul class="list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Battle</a></li>
+                        <li><a href="#" style="white-space: nowrap">Marketplace</a></li>
+                        <li><a href="#" style="white-space: nowrap">Whitepaper</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                </div>
+            
+                <div class="col-lg-4">
+                    <!-- <div class="col-md-2 footer-social animated fadeInDown"> -->
+                        
+                    <ul class="list icons-ft">
+                        <li><a href="#" style="text-decoration: none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32.5" height="26.41" fill="currentColor"
+                                    class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                                </svg>Telegram</a>
+                        </li>
+                        <li><a href="#" style="text-decoration: none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32.5" height="26.41" fill="currentColor"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg>Twitter</a>
+                        </li>
+            
+                        <li><a href="#" style="text-decoration: none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32.5" height="26.41" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>Facebook</a>
+                        </li>
+            
+                        <li><a href="#" style="text-decoration: none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32.5" height="26.41" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg>LinkedIn</a>
+                        </li>
+            
+            
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <!-- <div class="col-md-2 footer-social animated fadeInDown"> -->
+                    <ul class="contact">
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">master@kingdomraids.io</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="footer-ns animated fadeInRight">
+                    <div class="paper">
+                        <h4>SUBCRIBE TO OUR<br>NEWSLETTER</h4>
+                        <div class="inputEmail">
+                            <input type="text" class="form-control" placeholder="Email">
+                            <span class="input-group-btn">
+                                <button class="btn submit-newsletter" type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg></button>
+                            </span>
+                        </div>
+                        <div class="knight">
+                            <img src="assets/dist/img/minion_angry.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col copyright">
+                <span>Copyright © 2021 Kingdom Raids. All Right Reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.0/jquery.nicescroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+        <script src="scripts/loadCanvas.js"></script>
+    <script src="assets/dist/js/jquery.waitforimages.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/hero_battle.js"></script>
+
+</body>
+
+</html>
